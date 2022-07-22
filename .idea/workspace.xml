@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7ce23905-cfe5-42e2-a4c8-effaddd565ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/testing-js.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2CAd64J5TNaA9Qfy19uEGqOpo27" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Jest.validateValue">
+    <configuration name="Валидация значения (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/jest/validateValue/validateValue.test.js" />
+      <test-names>
+        <test-name value="Валидация значения" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Валидация значения" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/validateValue/validateValue.test.js" />
+      <test-names>
+        <test-name value="Валидация значения" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="validateValue" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/jest/validateValue/validateValue.test.js" />
+      <test-names>
+        <test-name value="validateValue" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="validateValue.Пограничное значение сверху" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/jest/validateValue/validateValue.test.js" />
+      <test-names>
+        <test-name value="validateValue" />
+        <test-name value="Пограничное значение сверху" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.validateValue" />
+        <item itemvalue="Jest.validateValue.Пограничное значение сверху" />
+        <item itemvalue="Jest.Валидация значения (1)" />
+        <item itemvalue="Jest.Валидация значения" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7ce23905-cfe5-42e2-a4c8-effaddd565ad" name="Default Changelist" comment="" />
+      <created>1658249146858</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658249146858</updated>
+      <workItem from="1658249148022" duration="596000" />
+      <workItem from="1658502783942" duration="1033000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1893" height="820" key="GridCell.Tab.0.bottom" timestamp="1658503854051">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1893" height="820" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1658503854051" />
+    <state width="1893" height="820" key="GridCell.Tab.0.center" timestamp="1658503854050">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1893" height="820" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1658503854050" />
+    <state width="1893" height="820" key="GridCell.Tab.0.left" timestamp="1658503854050">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1893" height="820" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1658503854050" />
+    <state width="1893" height="820" key="GridCell.Tab.0.right" timestamp="1658503854051">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1893" height="820" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1658503854051" />
+    <state x="703" y="152" key="RollbackChangesDialog" timestamp="1658248944976">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="703" y="152" key="RollbackChangesDialog/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1658248944976" />
+  </component>
+</project>
