@@ -20,13 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ce23905-cfe5-42e2-a4c8-effaddd565ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/testing-js.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +54,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Jest.validateValue">
+  <component name="RunManager" selected="Jest.mapArrToStrings">
     <configuration name="Валидация значения (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -74,16 +68,16 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="Валидация значения" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="mapArrToStrings" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/validateValue/validateValue.test.js" />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/jest/mapArrToStrings/mapArrToStrings.test.js" />
       <test-names>
-        <test-name value="Валидация значения" />
+        <test-name value="mapArrToStrings" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -114,12 +108,16 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="scratch.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$APPLICATION_CONFIG_DIR$/scratches/scratch.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.mapArrToStrings" />
+        <item itemvalue="Node.js.scratch.js" />
         <item itemvalue="Jest.validateValue" />
         <item itemvalue="Jest.validateValue.Пограничное значение сверху" />
         <item itemvalue="Jest.Валидация значения (1)" />
-        <item itemvalue="Jest.Валидация значения" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +130,9 @@
       <option name="presentableId" value="Default" />
       <updated>1658249146858</updated>
       <workItem from="1658249148022" duration="596000" />
-      <workItem from="1658502783942" duration="1033000" />
+      <workItem from="1658502783942" duration="1521000" />
+      <workItem from="1658505803209" duration="589000" />
+      <workItem from="1658570530763" duration="666000" />
     </task>
     <servers />
   </component>
@@ -152,25 +152,76 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1893" height="820" key="GridCell.Tab.0.bottom" timestamp="1658503854051">
+    <state width="1893" height="403" key="GridCell.Tab.0.bottom" timestamp="1658506397395">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1893" height="820" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1658503854051" />
-    <state width="1893" height="820" key="GridCell.Tab.0.center" timestamp="1658503854050">
+    <state width="1893" height="403" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1658506397395" />
+    <state width="1893" height="403" key="GridCell.Tab.0.center" timestamp="1658506397395">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1893" height="820" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1658503854050" />
-    <state width="1893" height="820" key="GridCell.Tab.0.left" timestamp="1658503854050">
+    <state width="1893" height="403" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1658506397395" />
+    <state width="1893" height="403" key="GridCell.Tab.0.left" timestamp="1658506397395">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1893" height="820" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1658503854050" />
-    <state width="1893" height="820" key="GridCell.Tab.0.right" timestamp="1658503854051">
+    <state width="1893" height="403" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1658506397395" />
+    <state width="1893" height="403" key="GridCell.Tab.0.right" timestamp="1658506397395">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1893" height="820" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1658503854051" />
+    <state width="1893" height="403" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1658506397395" />
+    <state width="1893" height="331" key="GridCell.Tab.1.bottom" timestamp="1658504313954">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1893" height="331" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1658504313954" />
+    <state width="1893" height="331" key="GridCell.Tab.1.center" timestamp="1658504313953">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1893" height="331" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1658504313953" />
+    <state width="1893" height="331" key="GridCell.Tab.1.left" timestamp="1658504313953">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1893" height="331" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1658504313953" />
+    <state width="1893" height="331" key="GridCell.Tab.1.right" timestamp="1658504313954">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1893" height="331" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1658504313954" />
+    <state width="1893" height="331" key="GridCell.Tab.2.bottom" timestamp="1658504313954">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1893" height="331" key="GridCell.Tab.2.bottom/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1658504313954" />
+    <state width="1893" height="331" key="GridCell.Tab.2.center" timestamp="1658504313954">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1893" height="331" key="GridCell.Tab.2.center/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1658504313954" />
+    <state width="1893" height="331" key="GridCell.Tab.2.left" timestamp="1658504313954">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1893" height="331" key="GridCell.Tab.2.left/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1658504313954" />
+    <state width="1893" height="331" key="GridCell.Tab.2.right" timestamp="1658504313954">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1893" height="331" key="GridCell.Tab.2.right/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1658504313954" />
+    <state width="1893" height="331" key="GridCell.Tab.3.bottom" timestamp="1658504313954">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1893" height="331" key="GridCell.Tab.3.bottom/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1658504313954" />
+    <state width="1893" height="331" key="GridCell.Tab.3.center" timestamp="1658504313954">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1893" height="331" key="GridCell.Tab.3.center/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1658504313954" />
+    <state width="1893" height="331" key="GridCell.Tab.3.left" timestamp="1658504313954">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1893" height="331" key="GridCell.Tab.3.left/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1658504313954" />
+    <state width="1893" height="331" key="GridCell.Tab.3.right" timestamp="1658504313954">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1893" height="331" key="GridCell.Tab.3.right/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1658504313954" />
     <state x="703" y="152" key="RollbackChangesDialog" timestamp="1658248944976">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="703" y="152" key="RollbackChangesDialog/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1658248944976" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/testing_js$validateValue___.info" NAME="validateValue.Пограничное значение сверху Coverage Results" MODIFIED="1658504000155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
