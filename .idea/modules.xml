@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../react-lists/.idea/react-lists.iml" filepath="$PROJECT_DIR$/../react-lists/.idea/react-lists.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/testing-js.iml" filepath="$PROJECT_DIR$/.idea/testing-js.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Полный курс по JavaScript [Udemy, Bogdan Stashchuk, 2022]/.idea/Полный курс по JavaScript [Udemy, Bogdan Stashchuk, 2022].iml" filepath="$PROJECT_DIR$/../Полный курс по JavaScript [Udemy, Bogdan Stashchuk, 2022]/.idea/Полный курс по JavaScript [Udemy, Bogdan Stashchuk, 2022].iml" />
     </modules>
   </component>
 </project>

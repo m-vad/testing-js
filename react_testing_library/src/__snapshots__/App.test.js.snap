@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders learn react link 1`] = `
+<h1>
+  Hello world
+</h1>
+`;
+
+exports[`renders learn react link 2`] = `
+<button>
+  Click me
+</button>
+`;
+
+exports[`renders learn react link 3`] = `
+<input
+  placeholder="input value..."
+  type="text"
+/>
+`;
