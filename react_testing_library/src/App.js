@@ -1,13 +1,22 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 
 const App = () => {
-  return (
-    <div className="App">
-        <h1>Hello world</h1>
-        <button>Click me</button>
-        <input type="text" placeholder="input value..."/>
-    </div>
-  );
+    const [data, setData] = useState(null)
+
+    useEffect( () => {
+        setTimeout( () => {
+            setData({})
+        }, 100)
+    }, [])
+
+    return (
+        <div>
+            {data && <div style={{color: 'red'}}>data</div>}
+            <h1>Hello world</h1>
+            <button>Click me</button>
+            <input type="text" placeholder="input value..."/>
+        </div>
+    );
 }
 
 export default App;
