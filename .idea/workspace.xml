@@ -23,7 +23,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react_testing_library/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_testing_library/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react_testing_library/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_testing_library/src/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_testing_library/src/__snapshots__/App.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/react_testing_library/src/__snapshots__/App.test.js.snap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +58,7 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Jest.TEST APP">
+  <component name="RunManager" selected="Jest.TEST APP.INPUT EVENT">
     <configuration name="TEST APP" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -70,6 +69,34 @@
       <test-file value="$PROJECT_DIR$/react_testing_library/src/App.test.js" />
       <test-names>
         <test-name value="TEST APP" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="TEST APP.CLICK EVENT" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/react_testing_library/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$/react_testing_library" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/react_testing_library/src/App.test.js" />
+      <test-names>
+        <test-name value="TEST APP" />
+        <test-name value="CLICK EVENT" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="TEST APP.INPUT EVENT" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/react_testing_library/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$/react_testing_library" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/react_testing_library/src/App.test.js" />
+      <test-names>
+        <test-name value="TEST APP" />
+        <test-name value="INPUT EVENT" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -84,33 +111,6 @@
       <test-names>
         <test-name value="TEST APP" />
         <test-name value="renders learn react link" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="getData" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/jest/getData/getData.test.js" />
-      <test-names>
-        <test-name value="getData" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="getData.Корректное значение" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/jest/getData/getData.test.js" />
-      <test-names>
-        <test-name value="getData" />
-        <test-name value="Корректное значение" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -129,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.TEST APP.INPUT EVENT" />
         <item itemvalue="Jest.TEST APP" />
+        <item itemvalue="Jest.TEST APP.CLICK EVENT" />
         <item itemvalue="Jest.TEST APP.renders learn react link" />
         <item itemvalue="Jest.renders learn react link" />
-        <item itemvalue="Jest.getData" />
-        <item itemvalue="Jest.getData.Корректное значение" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +157,7 @@
       <workItem from="1658924027227" duration="2590000" />
       <workItem from="1659108599795" duration="296000" />
       <workItem from="1659108920943" duration="1812000" />
-      <workItem from="1659156771030" duration="2071000" />
+      <workItem from="1659156771030" duration="4089000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add test mapArrToStrings">
       <created>1658571353979</created>
@@ -215,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659110620641</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: add testing async code">
+      <created>1659159771405</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1659159771405</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,7 +246,8 @@
     <MESSAGE value="feat: add test delay" />
     <MESSAGE value="feat: add test getData" />
     <MESSAGE value="feat: add testing react applications" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add testing react applications" />
+    <MESSAGE value="feat: add testing async code" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add testing async code" />
   </component>
   <component name="WindowStateProjectService">
     <state x="452" y="73" key="#Plugins" timestamp="1658823678775">
@@ -250,22 +258,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="687" y="216" key="FileChooserDialogImpl/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1658923465483" />
-    <state width="1893" height="37" key="GridCell.Tab.0.bottom" timestamp="1659159462572">
+    <state width="1893" height="190" key="GridCell.Tab.0.bottom" timestamp="1659161561579">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1893" height="37" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1659159462572" />
-    <state width="1893" height="37" key="GridCell.Tab.0.center" timestamp="1659159462572">
+    <state width="1893" height="190" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1659161561579" />
+    <state width="1893" height="190" key="GridCell.Tab.0.center" timestamp="1659161561579">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1893" height="37" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1659159462572" />
-    <state width="1893" height="37" key="GridCell.Tab.0.left" timestamp="1659159462571">
+    <state width="1893" height="190" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1659161561579" />
+    <state width="1893" height="190" key="GridCell.Tab.0.left" timestamp="1659161561579">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1893" height="37" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1659159462571" />
-    <state width="1893" height="37" key="GridCell.Tab.0.right" timestamp="1659159462572">
+    <state width="1893" height="190" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1659161561579" />
+    <state width="1893" height="190" key="GridCell.Tab.0.right" timestamp="1659161561579">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1893" height="37" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1659159462572" />
+    <state width="1893" height="190" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1659161561579" />
     <state width="1893" height="331" key="GridCell.Tab.1.bottom" timestamp="1658504313954">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -322,10 +330,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="351" y="78" key="SettingsEditor/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1658924413612" />
-    <state x="452" y="188" key="Vcs.Push.Dialog.v2" timestamp="1659110641531">
+    <state x="452" y="188" key="Vcs.Push.Dialog.v2" timestamp="1659159778111">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="188" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1659110641531" />
+    <state x="452" y="188" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1659159778111" />
     <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1658823625381">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
