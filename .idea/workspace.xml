@@ -21,8 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7ce23905-cfe5-42e2-a4c8-effaddd565ad" name="Default Changelist" comment="feat: add test square">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_testing_library/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_testing_library/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_testing_library/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_testing_library/src/App.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +56,7 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Jest.TEST APP.INPUT EVENT">
+  <component name="RunManager" selected="Jest.USERS TEST.renders learn react link">
     <configuration name="TEST APP" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -114,26 +112,27 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="renders learn react link" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="USERS TEST.renders learn react link" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/react_testing_library/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$/react_testing_library" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/react_testing_library/src/App.test.js" />
+      <test-file value="$PROJECT_DIR$/react_testing_library/src/users/Users.test.jsx" />
       <test-names>
+        <test-name value="USERS TEST" />
         <test-name value="renders learn react link" />
       </test-names>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.USERS TEST.renders learn react link" />
         <item itemvalue="Jest.TEST APP.INPUT EVENT" />
         <item itemvalue="Jest.TEST APP" />
         <item itemvalue="Jest.TEST APP.CLICK EVENT" />
         <item itemvalue="Jest.TEST APP.renders learn react link" />
-        <item itemvalue="Jest.renders learn react link" />
       </list>
     </recent_temporary>
   </component>
@@ -158,6 +157,8 @@
       <workItem from="1659108599795" duration="296000" />
       <workItem from="1659108920943" duration="1812000" />
       <workItem from="1659156771030" duration="4089000" />
+      <workItem from="1659259928837" duration="83000" />
+      <workItem from="1659513598166" duration="1482000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add test mapArrToStrings">
       <created>1658571353979</created>
@@ -222,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659159771405</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat: add event testing">
+      <created>1659259984511</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1659259984511</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +255,8 @@
     <MESSAGE value="feat: add test getData" />
     <MESSAGE value="feat: add testing react applications" />
     <MESSAGE value="feat: add testing async code" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add testing async code" />
+    <MESSAGE value="feat: add event testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add event testing" />
   </component>
   <component name="WindowStateProjectService">
     <state x="452" y="73" key="#Plugins" timestamp="1658823678775">
@@ -330,10 +339,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="351" y="78" key="SettingsEditor/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1658924413612" />
-    <state x="452" y="188" key="Vcs.Push.Dialog.v2" timestamp="1659159778111">
+    <state x="452" y="188" key="Vcs.Push.Dialog.v2" timestamp="1659259988610">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="188" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1659159778111" />
+    <state x="452" y="188" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1659259988610" />
     <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1658823625381">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
