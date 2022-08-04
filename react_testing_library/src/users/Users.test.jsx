@@ -38,4 +38,13 @@ describe('USERS TEST', () => {
         expect(axios.get).toBeCalledTimes(1);
         screen.debug();
     });
+
+    test('test redirect to details page', async() => {
+        axios.get.mockReturnValue(response);
+        render(<Users />);
+        const users = await screen.findAllByTestId('user-item');
+        expect(users.length).toBe(3);
+        userEvent.click(users[0])
+        expect(screen.getByTestId('user-page')).toBeInTheDocument();
+    });
 })
