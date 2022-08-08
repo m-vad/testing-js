@@ -21,7 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="7ce23905-cfe5-42e2-a4c8-effaddd565ad" name="Default Changelist" comment="feat: add test square">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_testing_library/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_testing_library/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react_testing_library/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/react_testing_library/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react_testing_library/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react_testing_library/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react_testing_library/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_testing_library/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react_testing_library/src/pages/MainPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react_testing_library/src/pages/MainPage.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +170,8 @@
       <workItem from="1659513598166" duration="2124000" />
       <workItem from="1659588001115" duration="3720000" />
       <workItem from="1659765565580" duration="192000" />
-      <workItem from="1659845732128" duration="939000" />
+      <workItem from="1659845732128" duration="1649000" />
+      <workItem from="1659981923168" duration="1326000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add test mapArrToStrings">
       <created>1658571353979</created>
@@ -260,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659765715781</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="feat: add testing component navbar">
+      <created>1659853323509</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1659853323509</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,7 +300,8 @@
     <MESSAGE value="feat: add testing a component with async data loading from the server" />
     <MESSAGE value="feat: add integration testing with react router dom" />
     <MESSAGE value="feat: add helper for convenient testing of routing" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add helper for convenient testing of routing" />
+    <MESSAGE value="feat: add testing component navbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add testing component navbar" />
   </component>
   <component name="WindowStateProjectService">
     <state x="452" y="73" key="#Plugins" timestamp="1658823678775">
@@ -300,22 +312,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="687" y="216" key="FileChooserDialogImpl/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1658923465483" />
-    <state width="1893" height="123" key="GridCell.Tab.0.bottom" timestamp="1659853149141">
+    <state width="1893" height="123" key="GridCell.Tab.0.bottom" timestamp="1659853818099">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1893" height="123" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1659853149141" />
-    <state width="1893" height="123" key="GridCell.Tab.0.center" timestamp="1659853149141">
+    <state width="1893" height="123" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1659853818099" />
+    <state width="1893" height="123" key="GridCell.Tab.0.center" timestamp="1659853818099">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1893" height="123" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1659853149141" />
-    <state width="1893" height="123" key="GridCell.Tab.0.left" timestamp="1659853149141">
+    <state width="1893" height="123" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1659853818099" />
+    <state width="1893" height="123" key="GridCell.Tab.0.left" timestamp="1659853818099">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1893" height="123" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1659853149141" />
-    <state width="1893" height="123" key="GridCell.Tab.0.right" timestamp="1659853149141">
+    <state width="1893" height="123" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1659853818099" />
+    <state width="1893" height="123" key="GridCell.Tab.0.right" timestamp="1659853818099">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1893" height="123" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1659853149141" />
+    <state width="1893" height="123" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1659853818099" />
     <state width="1893" height="331" key="GridCell.Tab.1.bottom" timestamp="1658504313954">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -372,10 +384,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="351" y="78" key="SettingsEditor/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1658924413612" />
-    <state x="452" y="188" key="Vcs.Push.Dialog.v2" timestamp="1659765723514">
+    <state x="452" y="188" key="Vcs.Push.Dialog.v2" timestamp="1659853331081">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="188" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1659765723514" />
+    <state x="452" y="188" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.-71.1920.1040@0.0.1920.1040" timestamp="1659853331081" />
     <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1658823625381">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
